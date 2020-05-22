@@ -54,7 +54,7 @@ TODO
 
 Please [open issues](https://github.com/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}}/issues) if you see one, or [create a pull request](https://github.com/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}}/pulls) when possible.
 In case of a pull request, please consider the following:
-- Respect the line length (132 characters)
+- Respect the line length ({{cookiecutter.line_length}} characters)
 - Keep the great test coverage of this project
 - Run `tox` locally so you can see if everything is green (including linter and other python versions)
 

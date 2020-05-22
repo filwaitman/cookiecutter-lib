@@ -1,4 +1,4 @@
-# Cookiecutter lib:
+# Cookiecutter lib
 
 This is a bootstrap for creating a Python/Django lib with all the boilerplate for you:
 * .gitignore

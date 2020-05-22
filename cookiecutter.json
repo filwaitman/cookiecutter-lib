@@ -7,6 +7,9 @@
     "package_name": "{{ cookiecutter.gh_repo_name.lower()|replace('-', '_')}}",
     "short_description": "Short description",
 
+    "line_length": "132",
+    "version": "0.0.1",
+
     "py2_support": "n",
     "use_django": "n"
 }
