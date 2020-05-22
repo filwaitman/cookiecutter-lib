@@ -1,0 +1,12 @@
+{
+    "author_name": "Filipe Waitman",
+    "author_email": "filwaitman@gmail.com",
+
+    "gh_username": "filwaitman",
+    "gh_repo_name": "my-cool-project",
+    "package_name": "{{ cookiecutter.gh_repo_name.lower()|replace('-', '_')}}",
+    "short_description": "Short description",
+
+    "py2_support": "n",
+    "use_django": "n"
+}

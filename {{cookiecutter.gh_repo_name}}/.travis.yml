@@ -1,0 +1,18 @@
+language: python
+cache: pip
+dist: xenial
+python:
+{%- if cookiecutter.py2_support.lower() == 'y' %}
+  - "2.7"
+{%- endif %}
+  - "3.6"
+  - "3.7"
+  - "3.8"
+install: pip install tox-travis codecov
+script:
+  - tox -e lint
+  - tox
+notifications:
+    email: false
+after_success:
+  - codecov
