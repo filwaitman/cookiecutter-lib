@@ -15,12 +15,6 @@ isort -rc .
 tox -e lint
 ```
 
-### Run tests locally:
-```bash
-pip install -r requirements_dev.txt
-python runtests.py
-```
-
 ### Run tests via `tox`:
 ```bash
 pip install -r requirements_dev.txt
