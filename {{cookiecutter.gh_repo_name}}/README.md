@@ -1,5 +1,10 @@
-[![Build Status](https://travis-ci.com/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}}.svg?branch=master)](https://travis-ci.com/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}})
-[![codecov](https://codecov.io/gh/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}}/branch/master/graph/badge.svg)](https://codecov.io/gh/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}})
+[![Travis](https://travis-ci.com/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}}.svg?branch=master)](https://travis-ci.com/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}})
+[![Codecov](https://codecov.io/gh/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}}/branch/master/graph/badge.svg)](https://codecov.io/gh/{{cookiecutter.gh_username}}/{{cookiecutter.gh_repo_name}})
+[![PyPI](https://img.shields.io/pypi/v/{{cookiecutter.gh_repo_name}}.svg)](https://pypi.python.org/pypi/{{cookiecutter.gh_repo_name}}/)
+[![License](https://img.shields.io/pypi/l/{{cookiecutter.gh_repo_name}}.svg)](https://pypi.python.org/pypi/{{cookiecutter.gh_repo_name}}/)
+[![Python versions](https://img.shields.io/pypi/pyversions/{{cookiecutter.gh_repo_name}}.svg)](https://pypi.python.org/pypi/{{cookiecutter.gh_repo_name}}/)
+[![PyPI downloads per month](https://img.shields.io/pypi/dm/{{cookiecutter.gh_repo_name}}.svg)](https://pypi.python.org/pypi/{{cookiecutter.gh_repo_name}}/)
+
 
 # {{cookiecutter.gh_repo_name}}
 
