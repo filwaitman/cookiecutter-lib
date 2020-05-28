@@ -29,10 +29,8 @@ if not settings.configured:
     failures = test_runner.run_tests(['tests'])
     if failures:
         sys.exit(failures)
-
 {% else -%}
 import nose
 
 nose.main()
-
 {% endif -%}

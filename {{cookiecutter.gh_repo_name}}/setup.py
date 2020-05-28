@@ -1,5 +1,6 @@
 {%- if cookiecutter.py2_support.lower() == 'n' -%}
 import sys
+
 {% endif -%}
 from setuptools import setup
 {%- if cookiecutter.py2_support.lower() == 'n' %}
